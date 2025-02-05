@@ -1,5 +1,5 @@
 # PHPUnit Art
-The ability to add art to the end of PHP Unit output
+This package adds the ability to show art at the end of the PHP Unit output
 
 ![image](https://github.com/user-attachments/assets/2c391cda-d0dd-4da1-bd44-4c73466a2cbd)
 # So how does it work?
