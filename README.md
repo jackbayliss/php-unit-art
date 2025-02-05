@@ -23,4 +23,9 @@ Well, for now you can just add a PR of whatever you want to add into the art fol
 ```
 # Well, what other art can I add?!
 Right now, it's limited to ASCII, or whatever we add into the art folder, but feel free to go wild. PR's are welcome.
+# Contributing 
+Please review the [contributing.md](https://github.com/jackbayliss/phpunit-art/blob/main/CONTRIBUTING.md) before creating a PR
 
+
+[phpunit](https://github.com/sebastianbergmann/phpunit) is created by Sebastian (hence the default sebby art), you should check it out if you're not sure what it is!  
+All rights etc, to him.
