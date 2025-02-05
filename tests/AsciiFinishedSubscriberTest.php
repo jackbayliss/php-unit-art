@@ -2,15 +2,15 @@
 
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Event\TestRunner\ExecutionFinished;
-use JackBayliss\PhpUnitAsciiArt\Exceptions\ArtNotFoundException;
-use JackBayliss\PhpUnitAsciiArt\Subscribers\AsciiFinishedSubscriber;
+use JackBayliss\PhpUnitArt\Exceptions\ArtNotFoundException;
+use JackBayliss\PhpUnitArt\Subscribers\AsciiFinishedSubscriber;
 
 class AsciiFinishedSubscriberTest extends TestCase
 {
 
     /**
      * Test that the subscriber includes the art file if it exists.
-     * @covers  JackBayliss\PhpUnitAsciiArt\Subscribers\AsciiFinishedSubscriber::notify
+     * @covers  JackBayliss\PhpUnitArt\Subscribers\AsciiFinishedSubscriber::notify
      */
 
     public function testIncludesFileOutputIfFileExists(): void
@@ -33,7 +33,7 @@ class AsciiFinishedSubscriberTest extends TestCase
 
     /**
      * Test that the subscriber throws an exception if the file doesnt exist.
-     * @covers  JackBayliss\PhpUnitAsciiArt\Subscribers\AsciiFinishedSubscriber::notify
+     * @covers  JackBayliss\PhpUnitArt\Subscribers\AsciiFinishedSubscriber::notify
      */
     public function testThrowsExceptionIfFileNotExists(): void
     {

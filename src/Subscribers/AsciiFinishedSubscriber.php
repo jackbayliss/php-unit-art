@@ -1,10 +1,10 @@
 <?php
 
-namespace JackBayliss\PhpUnitAsciiArt\Subscribers;
+namespace JackBayliss\PhpUnitArt\Subscribers;
 
 use PHPUnit\Event\TestRunner\ExecutionFinished;
 use PHPUnit\Event\TestRunner\ExecutionFinishedSubscriber;
-use JackBayliss\PhpUnitAsciiArt\Exceptions\ArtNotFoundException;
+use JackBayliss\PhpUnitArt\Exceptions\ArtNotFoundException;
 
 class AsciiFinishedSubscriber implements ExecutionFinishedSubscriber
 {

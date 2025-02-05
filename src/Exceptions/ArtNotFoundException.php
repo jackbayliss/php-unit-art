@@ -1,6 +1,6 @@
 <?php
 
-namespace JackBayliss\PhpUnitAsciiArt\Exceptions;
+namespace JackBayliss\PhpUnitArt\Exceptions;
 
 use Exception;
 

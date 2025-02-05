@@ -1,9 +1,9 @@
 {
-    "name": "jackbayliss/php-unit-ascii-art",
-    "description": "ascii art for phpunit",
+    "name": "jackbayliss/php-unit-art",
+    "description": "ascii art for phpunit, and maybe more!",
     "autoload": {
         "psr-4": {
-            "JackBayliss\\PhpUnitAsciiArt\\": "src/"
+            "JackBayliss\\PhpUnitArt\\": "src/"
         }
     },
     "authors": [

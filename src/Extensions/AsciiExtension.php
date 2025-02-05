@@ -1,8 +1,8 @@
 <?php
 
-namespace JackBayliss\PhpUnitAsciiArt\Extensions;
+namespace JackBayliss\PhpUnitArt\Extensions;
 
-use JackBayliss\PhpUnitAsciiArt\Subscribers\AsciiFinishedSubscriber;
+use JackBayliss\PhpUnitArt\Subscribers\AsciiFinishedSubscriber;
 use PHPUnit\Runner\Extension\Extension;
 use PHPUnit\Runner\Extension\Facade;
 use PHPUnit\Runner\Extension\ParameterCollection;
