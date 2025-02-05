@@ -1,6 +1,9 @@
 {
     "name": "jackbayliss/php-unit-art",
     "description": "ascii art for phpunit, and maybe more!",
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
     "autoload": {
         "psr-4": {
             "JackBayliss\\PhpUnitArt\\": "src/"
