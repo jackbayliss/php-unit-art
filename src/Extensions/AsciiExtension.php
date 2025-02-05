@@ -1,12 +1,12 @@
 <?php
 
-namespace JackBayliss\PhpUnitAsciiArt;
+namespace JackBayliss\PhpUnitAsciiArt\Extensions;
 
+use JackBayliss\PhpUnitAsciiArt\Subscribers\AsciiFinishedSubscriber;
 use PHPUnit\Runner\Extension\Extension;
 use PHPUnit\Runner\Extension\Facade;
 use PHPUnit\Runner\Extension\ParameterCollection;
 use PHPUnit\TextUI\Configuration\Configuration;
-use JackBayliss\PhpUnitAsciiArt\Subscribers\AsciiFinishedSubscriber;
 
 class AsciiExtension implements Extension
 {
