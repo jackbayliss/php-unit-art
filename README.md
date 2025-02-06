@@ -13,7 +13,7 @@ Pretty easily, all you need to do is install it via `composer require jackbaylis
     </extensions>
 ```
 # How can I define more art?!
-Well, for now you can just add a PR of whatever you want to add into the art folder, (the default is sebbyb) - but you can define what art you want to use via the parameter xml.
+Well, for now you can just add a PR of whatever you want to add into the art folder, (the default is sebbyb) - but you can define what art you want to use via the parameter xml as long as its in the art folder. This means you can also keep your own art in that folder locally for your own project, if you didn't want to PR anything.
 ```
     <extensions>
         <bootstrap class="JackBayliss\PhpUnitArt\Extensions\AsciiExtension">
