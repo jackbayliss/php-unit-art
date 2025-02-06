@@ -5,7 +5,7 @@ This package adds the ability to show art at the end of the PHP Unit output
 
 ![image](https://github.com/user-attachments/assets/2c391cda-d0dd-4da1-bd44-4c73466a2cbd)
 # So how does it work?
-Pretty easily, all you need to do is just add the following into your phpunit.xml.
+Pretty easily, all you need to do is install it via `composer require jackbayliss/php-unit-art` just add the following into your phpunit.xml.
 ``` 
     <extensions>
         <bootstrap class="JackBayliss\PhpUnitArt\Extensions\AsciiExtension">
